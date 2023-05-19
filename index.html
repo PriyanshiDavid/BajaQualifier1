@@ -1,1 +1,51 @@
 
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Directory</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Employee Directory</h1>
+
+    <div class="filters">
+      <div class="form-group">
+        <label for="searchInput">Search by Name:</label>
+        <input type="text" class="form-control" id="searchInput">
+      </div>
+      <div class="form-group">
+        <label for="designationFilter">Filter by Designation:</label>
+        <input type="text" class="form-control" id="designationFilter">
+      </div>
+      <div class="form-group">
+        <label for="skillsFilter">Filter by Skills:</label>
+        <input type="text" class="form-control" id="skillsFilter">
+      </div>
+      <button class="btn btn-primary" id="searchButton">Search</button>
+    </div>
+
+    <table class="table table-bordered" id="employeeTable">
+      <thead>
+        <tr>
+          <th>Employee Name</th>
+          <th>Employee ID</th>
+          <th>Designation</th>
+          <th>Skills</th>
+          <th>Projects</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Table rows will be dynamically added here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
