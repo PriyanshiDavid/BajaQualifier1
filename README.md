@@ -1,2 +1,2 @@
 # BajaQualifier1
-The HTML,CSS&lt; JS code for the given Question
+The HTML,CSS & JS code for the given Question
